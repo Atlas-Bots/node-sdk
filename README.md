@@ -4,10 +4,11 @@
 
 ## Install
 ```diff
-+ npm
-npm install soon
-+ yarn
-yarn add soon 
+npm install atlas-bots
+
+or
+
+npm install atlasbots@latest
 ```
 
 <hr />
