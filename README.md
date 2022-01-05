@@ -5,9 +5,9 @@
 ## Install
 ```diff
 + npm
-npm install soon
+npm install atlas-bots
 + yarn
-yarn add soon 
+yarn add atlas-bots 
 ```
 
 <hr />
