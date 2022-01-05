@@ -5,9 +5,9 @@
 ## Install
 ```diff
 + npm
-npm install atlas-bots
+npm install soon
 + yarn
-yarn add atlas-bots 
+yarn add soon 
 ```
 
 <hr />
@@ -16,13 +16,13 @@ yarn add atlas-bots
 ```js
 const { AtlasClient } = require("atlas-bots");
 
-const client = new AtlasClient({
-    token: "Api key",
-    id: "Bot id"
+const atlas = new AtlasClient({
+    auth: "Api key",
+    botID: "Bot id"
 });
 
-client.post(SERVER_COUNT, SHARD_COUNT);
-client.log("Some Log Text so you know it Worked");
+atlas.post(SERVER_COUNT, SHARD_COUNT);
+atlas.log("Some Log Text so you know it Worked");
 ```
 
 <hr />
@@ -31,16 +31,16 @@ client.log("Some Log Text so you know it Worked");
 ```js
 const { AtlasClient } = require("atlas-bots");
 
-const client = new AtlasClient({
-    token: "AUTH_TOKEN", 
-    id: "819050202508890419"
+const atlas = new AtlasClient({
+    auth: "AUTH_TOKEN", 
+    botID: "819050202508890419"
 });
 
-client.post(client.guilds.cache.size, 0).catch((err) => {
-   client.log(`Posting Stats has failed | Error: ${err}`);
+atlas.post(client.guilds.cache.size, 0).catch((err) => {
+   atlas.atlasLogs(`Posting Stats has failed | Error: ${err}`);
 });
 
-client.log("Posted Stats Successfully");
+atlas.atlasLogs("Posted Stats Successfully");
 ```
 
 <hr />
