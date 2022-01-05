@@ -9,6 +9,9 @@ npm install soon
 + yarn
 yarn add soon 
 ```
+
+<hr />
+
 ## Usage
 ```js
 const { AtlasClient } = require("atlas-bots");
