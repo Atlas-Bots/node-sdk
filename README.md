@@ -37,7 +37,7 @@ const client = new AtlasClient({
 });
 
 client.post(client.guilds.cache.size, 0).catch(() => {
-client.log("Posting Stats has failed");
+   client.log("Posting Stats has failed");
 });
 client.log("Posted Stats Successfully");
 ```
