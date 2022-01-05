@@ -24,6 +24,9 @@ const client = new AtlasClient({
 client.post(SERVER_COUNT, SHARD_COUNT);
 client.log("Some Log Text so you know it Worked");
 ```
+
+<hr />
+
 ## Example
 ```js
 const { AtlasClient } = require("atlas-bots");
@@ -38,3 +41,5 @@ client.log("Posting Stats has failed");
 });
 client.log("Posted Stats Successfully");
 ```
+
+<hr />
