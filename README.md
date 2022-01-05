@@ -1,6 +1,6 @@
 # Atlas Bots (Node-SDK)
 
-<br>
+<hr />
 
 ## Install
 ```diff
