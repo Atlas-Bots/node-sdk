@@ -23,9 +23,9 @@ client.log("Some Log Text so you know it Worked");
 ```
 ## Example
 ```js
-const { Sentcord } = require("sentcordts");
+const { AtlasClient } = require("atlas-bots");
 
-const client = new Sentcord({
+const client = new AtlasClient({
     token: "AUTH_TOKEN", 
     id: "819050202508890419"
 });
