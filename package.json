@@ -1,0 +1,47 @@
+{
+    "name": "atlas-bots",
+    "description": "Official Node SDK for the Atlas Bot List API",
+    "version": "1.0.0",
+
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+
+    "files": [
+        "dist/**/*"
+    ],
+
+    "scripts": {
+        "build": "tsc",
+        "start": "ts-node src/index.ts"
+    },
+
+    "license": "MIT",
+    "dependencies": {
+        "@ayanaware/logger": "^2.2.1",
+        "node-fetch": "2.6.1"
+    },
+
+    "devDependencies": {
+        "@types/node": "^15.3.0",
+        "@types/node-fetch": "^2.5.10",
+        "ts-node": "^9.1.1",
+        "typescript": "^4.2.4"
+    },
+
+    "repository": {
+        "url": "https://github.com/Atlas-Bots/node-sdk"
+    },
+
+    "author": {
+        "name": "Atlas-Bots",
+        "url": "https://github.com/Atlas-Bots/node-sdk"
+    },
+
+    "contributors": [
+        {
+            "name": "TheRealToxicDev",
+            "url": "https://github.com/TheRealToxicDev"
+        }
+    ]
+
+}
