@@ -18,7 +18,7 @@
     "license": "MIT",
     "dependencies": {
         "@ayanaware/logger": "^2.2.1",
-        "node-fetch": "2.6.1"
+        "node-fetch": "2.6.7"
     },
 
     "devDependencies": {
